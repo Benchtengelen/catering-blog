@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 60px;
+    box-shadow: 5px 10px 11px #888888;
+    position: fixed;
+}
+header .title{
+    margin-left: 20px;
+    letter-spacing: 6px;
+  
+}
+header .menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+   
+}
+header .menu ul li{
+    display: inline-block;
+    margin-right: 20px;
+    letter-spacing: 6px;
+    
+}
+
